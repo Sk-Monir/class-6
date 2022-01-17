@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../image/banner.jpg);
+    background-size: cover;
+    font-family: arial,sans-serif;
+    margin:0;
+    padding: 20px 0px;
+}
+.clearfix{
+    clear: both;
+}
+.header,.navbar,.left,.MainContemt,.right,.footer{
+    background-color: #9313a38c;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 10px;
+    color:#fdfdfd;
+}
+.main{
+    margin-bottom: 10px;
+}
+.MainContemt{
+    width:58%;
+    float:left;
+    height:350px;
+    margin: 0px 10px;
+}
+.left,.right{
+    width: 20%;
+    float:left;
+    height:350px;
+}
+
